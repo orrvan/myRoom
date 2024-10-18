@@ -23,7 +23,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.zone{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  height: 100vh; /* 使容器填满视口高度 */
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  background-color: #f0f4ff;
+}
 * {
   box-sizing: border-box;
   padding: 0;
